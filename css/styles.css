@@ -433,8 +433,8 @@ padding: 0;
 
 .social-link:hover,
 .social-link:focus {
-  
-  background-color: var(--accent-cl);
+color: #FFFFFF;
+background-color: var(--accent-cl);
 }
 /* client */
 .client {
