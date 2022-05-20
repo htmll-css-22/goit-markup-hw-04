@@ -401,8 +401,8 @@ margin-bottom: 16px;
 }
 /* social icons */
 .social-list{
-  justify-content: center;
-  align-content: center;
+ justify-content: center;
+padding: 0;
 }
 
 .social-icon{
@@ -433,6 +433,7 @@ margin-bottom: 16px;
 
 .social-link:hover,
 .social-link:focus {
+  
   background-color: var(--accent-cl);
 }
 /* client */
