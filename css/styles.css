@@ -565,6 +565,7 @@ color: #2196F3
 }
 
 .join {
+  margin-top: 0;
   margin-bottom: 20px;
 
   color: #FFFFFF;
@@ -594,8 +595,8 @@ color: #2196F3
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  
 }
+
 .galerry .list:first-of-type {
   margin-bottom: 50px;
 }
@@ -650,7 +651,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 .link-galerry-card {
   color: inherit;
   display: block;
-  margin-bottom: 30px;
+ 
 }
 
 .contacts-adress {
@@ -661,13 +662,6 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 margin: 0;
-}
-
-.galerry > .container > .list {
-  width: 1200px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .galerry-card {
@@ -681,7 +675,7 @@ font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
   text-align: start;
-  
+  margin-bottom: 30px;
 }
 
 .title-mode-light {
@@ -691,6 +685,7 @@ line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 margin: 0;
+margin-bottom: 4px;
 }
 
 /* Блок о нас  */
